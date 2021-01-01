@@ -6,7 +6,7 @@ jobs:
       fail-fast: false
       matrix:
         task: [SPECS]
-        ruby: [2.3.3, 2.4, 2.5, 2.6, 2.7]
+        ruby: [2.3.3, 2.4, 2.5, 2.6, 2.7, 3.0]
         os: [ubuntu-16.04]
         include:
           - task: SPECS
@@ -55,7 +55,7 @@ jobs:
 
       - name: Run Tests
         run: bundle exec rake spec:all
-        env: 
+        env:
           COCOAPODS_CI_TASKS: ${{ matrix.task }}
 
 on:
@@ -64,7 +64,6 @@ on:
       - "master"
       - "*-stable"
   pull_request:
-    branches: 
+    branches:
       - master
       - "*-stable"
-
