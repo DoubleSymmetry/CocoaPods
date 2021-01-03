@@ -101,7 +101,7 @@ GIT
 
 GIT
   remote: https://github.com/mrackwitz/CLIntegracon.git
-  revision: a97960b69caf2d1681f8d1460ea9f78224ef5a3f
+  revision: 7293941cb4f5e12f7ef18553625064d643470c9b
   branch: segiddins/ruby-3
   specs:
     clintegracon (0.9.0)
@@ -302,7 +302,7 @@ DEPENDENCIES
   awesome_print
   bacon!
   bigdecimal (~> 1.3.0)
-  bundler
+  bundler (~> 2.2)
   claide!
   clintegracon!
   cocoapods!
@@ -338,4 +338,4 @@ DEPENDENCIES
   xcodeproj!
 
 BUNDLED WITH
-   1.17.3
+   2.2.4
