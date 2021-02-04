@@ -18,9 +18,11 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'cocoapods-core', github: "jasl/Core", branch: "replace-typhoeus-to-async-http" # , path: "/Users/jasl/Workspaces/Ruby/Core"
+
 group :development do
   cp_gem 'claide',                'CLAide'
-  cp_gem 'cocoapods-core',        'Core'
+  # cp_gem 'cocoapods-core',        'Core'
   cp_gem 'cocoapods-deintegrate', 'cocoapods-deintegrate'
   cp_gem 'cocoapods-downloader',  'cocoapods-downloader'
   cp_gem 'cocoapods-plugins',     'cocoapods-plugins'
@@ -33,13 +35,13 @@ group :development do
 
   gem 'cocoapods-dependencies', '~> 1.0.beta.1'
 
-  gem 'activesupport', '> 5', '< 6' # Pinned < 6 because 6 requires Ruby 2.5.0
+  # gem 'activesupport', '> 5', '< 6' # Pinned < 6 because 6 requires Ruby 2.5.0
   gem 'bacon', :git => 'https://github.com/leahneukirchen/bacon.git'
   gem 'mocha', '< 1.5'
   gem 'mocha-on-bacon'
   gem 'netrc'
   gem 'prettybacon'
-  gem 'typhoeus'
+  # gem 'typhoeus'
   gem 'webmock'
 
   gem 'bigdecimal', '~> 1.3.0'
