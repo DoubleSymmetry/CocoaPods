@@ -79,7 +79,7 @@ GIT
 
 GIT
   remote: https://github.com/jasl/Core.git
-  revision: 57cfd492f281337a99f3b0f7780a0f3205a4d127
+  revision: 3111001a2ea44e40b04ac0bfc76ce4eb1121a1d7
   branch: replace-typhoeus-to-async-http
   specs:
     cocoapods-core (1.10.1)
@@ -124,7 +124,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     CFPropertyList (3.0.3)
-    activesupport (6.1.1)
+    activesupport (6.1.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -136,7 +136,7 @@ GEM
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     ast (2.4.0)
-    async (1.28.5)
+    async (1.28.8)
       console (~> 1.10)
       nio4r (~> 2.3)
       timers (~> 4.1)
@@ -147,9 +147,9 @@ GEM
       protocol-http (~> 0.21.0)
       protocol-http1 (~> 0.13.0)
       protocol-http2 (~> 0.14.0)
-    async-io (1.30.1)
+    async-io (1.30.2)
       async (~> 1.14)
-    async-pool (0.3.3)
+    async-pool (0.3.5)
       async (~> 1.25)
     atomos (0.1.3)
     awesome_print (1.6.1)
@@ -202,7 +202,7 @@ GEM
       rchardet (~> 1.8)
     hashdiff (1.0.1)
     httpclient (2.8.3)
-    i18n (1.8.8)
+    i18n (1.8.9)
       concurrent-ruby (~> 1.0)
     inch (0.8.0)
       pry
@@ -232,7 +232,7 @@ GEM
     multipart-post (2.1.1)
     nap (1.1.0)
     netrc (0.11.0)
-    nio4r (2.5.4)
+    nio4r (2.5.5)
     no_proxy_fix (0.1.2)
     notify (0.5.2)
     octokit (4.18.0)
@@ -292,7 +292,7 @@ GEM
       tins (~> 1.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    timers (4.3.2)
+    timers (4.3.3)
     tins (1.16.3)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -343,4 +343,4 @@ DEPENDENCIES
   xcodeproj!
 
 BUNDLED WITH
-   2.2.3
+   2.2.5

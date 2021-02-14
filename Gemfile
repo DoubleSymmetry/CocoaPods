@@ -20,6 +20,8 @@ gemspec
 
 gem 'cocoapods-core', github: "jasl/Core", branch: "replace-typhoeus-to-async-http" # , path: "/Users/jasl/Workspaces/Ruby/Core"
 
+# gem 'nio4r', github: 'socketry/nio4r', branch: 'm1-extconf-fix'
+
 group :development do
   cp_gem 'claide',                'CLAide'
   # cp_gem 'cocoapods-core',        'Core'
